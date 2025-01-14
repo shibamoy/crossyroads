@@ -30,9 +30,4 @@ class Cars(Turtle):
             x -= 10
             cars.setx(x)
 
-    def collision(self, player, car):
-        if car.distance(player) < 20:
-            return True
-        return False
-
 
